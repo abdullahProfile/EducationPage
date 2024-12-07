@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Education Website</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav-bar flex justify-content-btw align-item-center">
+      <a href="#"><img src="./assets/images/logo.svg" alt="logo"></a>
+      <ul class="nav-bar__list">
+
+        <div class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Courses <img src="./assets/icons/icon.svg" alt="arrow"></a>
+
+          <div class="sub-menu">
+            <ul>
+              <li><a href="#">WEB</a></li>
+              <li><a href="#">DSA</a></li>
+              <li><a href="#">Java</a></li>
+            </ul>
+          </div>
+          </li>
+          <li><a href="#">Blog <img src="./assets/icons/icon.svg" alt="arrow"></a>
+          <div class="sub-menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          </li>
+          <li><a href="#" class="contact-cta">Contact Us</a></li>
+
+          <li class="fas fa-times close-menu" onclick="closeMenu()"></li>
+        </div>
+
+        <li class="fas fa-bars open-menu" onclick="openMenu()"></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-content flex align-item-center">
+      <div class="hero-content__text flex flex-direction-col">
+        <h1>Start learning with us now</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam  voluptates sed beatae?</p>
+        <a href="#">Start Learing</a>
+      </div>
+
+      <div class="hero-content__image">
+        <img src="./assets/images/hero.svg" alt="image">
+      </div>
+    </div>
+  </main>
+
+  <section class="cards">
+    <div class="cards-content flex flex-direction-col">
+      <div class="card-one flex align-item-center justify-content-btw">
+        <div class="card-one__image">
+          <img src="./assets/images/imgOne.svg" alt="image">
+        </div>
+
+        <div class="card-one__text">
+          <h2>Welcome to the online centers</h2>
+
+          <ul>
+            <li>Start learning from your experience</li>
+            <li>Enhance your skills with us now</li>
+            <li>Do your favorite course</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card-two flex align-item-center justify-content-btw">
+        <h2>Start learning by creating free account and get register</h2>
+
+        <div class="card-two__image">
+          <img src="./assets/images/imgTwo.svg" alt="image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="user-cta">
+    <form action="#" class="user-cta__form flex justify-content-around align-item-center">
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email Address">
+      <a href="#">SubScribe</a>
+    </form>
+  </section>
+
+  <section class="team">
+    <div class="team-content">
+      <div class="team-content__image team-content__imageOne">
+        <img src="./assets/images/imgFour.svg" alt="image">
+      </div>
+
+      <div class="team-content__image team-content__imageTwo">
+        <img src="./assets/images/imgFive.svg" alt="image">
+      </div>
+
+      <div class="team-content__image team-content__imageThree">
+        <img src="./assets/images/imgSixth.svg" alt="image">
+      </div>
+
+      <div class="team-content__image team-content__imageFour">
+        <img src="./assets/images/imgSeven.svg" alt="image">
+      </div>
+      <div class="team-content__text">
+        <h3>Start growing with our community</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        <a href="#">Join community</a>
+      </div>
+
+      <div class="team-content__hero-image">
+        <img src="./assets/images/imgThree.svg" alt="image">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+
+      <div class="footer-content__container justify-content-around">
+        <a href="#"><img src="./assets/images/logo.svg" alt="logo"></a>
+        <nav>
+          <span class="list-heading">Follow Us</span>
+
+          <div class="media-cta flex align-item-center">
+            <a href="#"><img src="./assets/icons/Twitter.svg" alt="icon"></a>
+            <a href="#"><img src="./assets/icons/Linkedln.svg" alt="icon"></a>
+            <a href="#"><img src="./assets/icons/fa.svg" alt="icon"></a>
+            <a href="#"><img src="./assets/icons/instagram.svg" alt="icon"></a>
+          </div>
+        </nav>
+
+        <nav class="footer-navbar__list-content__list flex">
+          <span class="list-heading">UseFul Links</span>
+          <div>
+            <a href="#">Our Projects</a>
+            <a href="#">FAQ’s</a>
+            <a href="#">News and Updates</a>
+          </div>
+        </nav>
+
+        <nav class="footer-navbar__list-content__list flex">
+          <span class="list-heading">Contacts</span>
+          <div>
+            <a href="#">Address : 4-5 Main road , Delhi</a>
+            <a href="#">Email : educare@gmail.com</a>
+            <a href="#">Phone Number : +91 4533433265</a>
+          </div>
+        </nav>
+      </div>
+
+      <p>&copy;All Copyrights reserved</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
