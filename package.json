@@ -2,17 +2,15 @@
   "name": "educationpage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.0",
     "sass": "^1.82.0"
-  },
-  "dependencies": {
-    "gulp": "^5.0.0"
   }
 }
