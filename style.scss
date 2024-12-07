@@ -436,6 +436,8 @@ footer {
   .footer-content {
     background: $primary-bg-color;
      padding-block: 107px;
+    max-width: 1920px;
+    margin-inline: auto;
 
      .footer-content__container{
       display: flex;

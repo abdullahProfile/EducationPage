@@ -386,6 +386,8 @@ body {
 footer .footer-content {
   background: #F9E0AE;
   padding-block: 107px;
+  max-width: 1920px;
+  margin-inline: auto;
 }
 footer .footer-content .footer-content__container {
   display: flex;
